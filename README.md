@@ -1,1 +1,1 @@
-Code for my website at https://alopez.github.io
+ credit to https://alopez.github.io
