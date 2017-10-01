@@ -55,10 +55,15 @@ papers:
     selected: yes
     year: 2016
     paper-type: inproceedings
-    img: rgg
+    img: morphlm
     title: <a href="./papers/Chinese_Handwriting.pdf">Chinese Handwriting Writer Identification Using Neural Networks </a> (poster)
     authors:  <b>Hao Liu</b> and Lawrence Carin
     booktitle:  Duke University ECE department Undergraduate Research Poster Session
     booktitle-url:
     venue: poster
-    doc-url:
+    doc-url: ./papers/Chinese_Handwriting.pdf
+    abstract: >
+      I applied latest recurrent neural network model to do the task of Chinese handwriting char- acter writer identification. I implemented the softmax, MLP, LSTM, bidirection LSTM, Hierarchical RNN while using empirical techniques such as dropout and masking. I think using Hierarchical RNN is a new way for this task and it can improve the performance. It is still under experiment. <br>
+      I have finished several steps in this project:
+      <br>  (i) Implement c++ and python program to process CASIA online chinese handwritting data  <br >(ii) implement several latest deep neural network models for this task
+      <br>  (iii) propose a new way to use stroke information in this task by applying Hierarchical Re- current Neural Network
