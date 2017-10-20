@@ -37,20 +37,21 @@ papers:
     code: https://github.com/ChunyuanLI/ALICE
     abstract: >
       We investigate the non-identifiability issues associated with bidirectional adversarial training for joint distribution matching. Within a framework of conditional entropy, we propose both adversarial and non-adversarial approaches to learn desirable matched joint distributions for unsupervised and supervised tasks. We unify a broad family of adversarial models as joint distribution matching problems. Our approach stabilizes learning of unsupervised bidirectional adversarial learning methods. Further, we introduce an extension for semi-supervised learning tasks. Theoretical results are validated in synthetic data and real-world applications.
-  - layout: paper
-    selected: yes
-    year: 2017
-    paper-type: inproceedings
-    img: rgg
-    title: <a href="https://arxiv.org/pdf/1709.06548.pdf">Triangle Generative Adversarial Networks </a>
-    authors: Zhe Gan, Liqun Chen, Weiyao Wang, Yunchen Pu, Yizhe Zhang, <b>Hao Liu</b>, Chunyuan Li and Lawrence Carin
-    booktitle:  Neural Information Processing Systems(NIPS)
-    booktitle-url: https://nips.cc
-    venue: conference paper
-    doc-url: https://arxiv.org/pdf/1709.06548.pdf
-    code: https://github.com/LiqunChen0606/Triangle-GAN
-    abstract: >
-      A Triangle Generative Adversarial Network (∆-GAN) is developed for semisupervised cross-domain joint distribution matching, where the training data consists of samples from each domain, and supervision of domain correspondence is provided by only a few paired samples. ∆-GAN consists of four neural networks, two generators and two discriminators. The generators are designed to learn the two-way conditional distributions between the two domains, while the discriminators implicitly define a ternary discriminative function, which is trained to distinguish real data pairs and two kinds of fake data pairs. The generators and discriminators are trained together using adversarial learning. Under mild assumptions, in theory the joint distributions characterized by the two generators concentrate to the data distribution. In experiments, three different kinds of domain pairs are considered, image-label, image-image and image-attribute pairs. Experiments on semi-supervised image classification, image-to-image translation and attribute-based image generation demonstrate the superiority of the proposed approach.
+
+  # - layout: paper
+  #   selected: yes
+  #   year: 2017
+  #   paper-type: inproceedings
+  #   img: rgg
+  #   title: <a href="https://arxiv.org/pdf/1709.06548.pdf">Triangle Generative Adversarial Networks </a>
+  #   authors: Zhe Gan, Liqun Chen, Weiyao Wang, Yunchen Pu, Yizhe Zhang, <b>Hao Liu</b>, Chunyuan Li and Lawrence Carin
+  #   booktitle:  Neural Information Processing Systems(NIPS)
+  #   booktitle-url: https://nips.cc
+  #   venue: conference paper
+  #   doc-url: https://arxiv.org/pdf/1709.06548.pdf
+  #   code: https://github.com/LiqunChen0606/Triangle-GAN
+  #   abstract: >
+  #     A Triangle Generative Adversarial Network (∆-GAN) is developed for semisupervised cross-domain joint distribution matching, where the training data consists of samples from each domain, and supervision of domain correspondence is provided by only a few paired samples. ∆-GAN consists of four neural networks, two generators and two discriminators. The generators are designed to learn the two-way conditional distributions between the two domains, while the discriminators implicitly define a ternary discriminative function, which is trained to distinguish real data pairs and two kinds of fake data pairs. The generators and discriminators are trained together using adversarial learning. Under mild assumptions, in theory the joint distributions characterized by the two generators concentrate to the data distribution. In experiments, three different kinds of domain pairs are considered, image-label, image-image and image-attribute pairs. Experiments on semi-supervised image classification, image-to-image translation and attribute-based image generation demonstrate the superiority of the proposed approach.
   - layout: poster
     selected: yes
     year: 2016
